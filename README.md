@@ -23,7 +23,7 @@ spec:
 ```
 
 ## 要先config憑證 才有資格把app生出來
-
+kubectl apply -f repo-creds.yaml   
 
 
 ## 重點在於要產生app, 是需要下
