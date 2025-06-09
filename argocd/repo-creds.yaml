@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: github-creds
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repo-creds
+stringData:
+  type: git
+  url: https://github.com/Norriswu266
+  username: git
+  password: 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
