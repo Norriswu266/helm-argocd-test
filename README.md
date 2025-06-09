@@ -27,3 +27,6 @@ spec:
 kubectl apply -f app.yaml
 ```
 
+## 最後指令
+
+git add . && git commit -m "test" && git push && argocd app sync helm-argocd-test-app
