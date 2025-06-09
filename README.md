@@ -22,7 +22,11 @@ spec:
     namespace: demo-app # target k8s resource namespace (multi namespace from source should create another argocd applications)
 ```
 
-重點在於要產生app, 是需要下
+## 要先config憑證 才有資格把app生出來
+
+
+
+## 重點在於要產生app, 是需要下
 ```
 kubectl apply -f app.yaml
 ```
