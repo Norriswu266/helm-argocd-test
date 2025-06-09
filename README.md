@@ -1,1 +1,1 @@
-# helm-argocd-test-
+# helm-argocd-test
